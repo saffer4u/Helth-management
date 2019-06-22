@@ -83,7 +83,7 @@ def getdate():
     return datetime.datetime.now()
 
 # Main program::::
-print("Helth management program : ")
+print("Helth management program by - Aftab Alam : ")
 lc_rt=int(input("What do you want (Enter 1 to lock or 2 to Retrive) : "))
 if lc_rt==1:
     dt_ex=int(input('What do you want to lock (Enter 1 for diet or 2 for Exercise) : '))
